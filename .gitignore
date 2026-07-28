@@ -1,0 +1,7 @@
+# Captures réseau (volumineuses / potentiellement sensibles)
+*.pcap
+*.pcapng
+
+# Fichiers système
+.DS_Store
+Thumbs.db
