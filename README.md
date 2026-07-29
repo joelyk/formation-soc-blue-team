@@ -27,7 +27,9 @@ Ce dépôt contient des **résumés** de cours, mes notes personnelles, et les l
 formation-soc-blue-team/
 ├── modules/
 │   ├── module-01-reseaux/
-│   │   └── sous-chapitre-1.1-modele-osi/   # résumé + exercices + livrables
+│   │   ├── chapitre-01-modele-osi/ … chapitre-05-firewall-ids-ips-dmz/
+│   │   ├── exercices/               # 6 exercices numérotés
+│   │   └── projet-cartographie-reseau.md
 │   ├── module-02-linux-administration/
 │   ├── module-03-analyse-logs/
 │   ├── module-04-siem-splunk-elastic/
@@ -41,11 +43,12 @@ Chaque module/sous-chapitre est ajouté au fur et à mesure de l'avancement.
 
 ## Progression
 
-- [ ] Module 1 — Les réseaux
-  - [x] 1.1 — Le modèle OSI
-  - [ ] 1.2 — TCP/IP en pratique
-  - [ ] 1.3 — Les protocoles essentiels
-  - [ ] 1.4 — Adressage IP et sous-réseaux
+- [ ] Module 1 — Les réseaux et protocoles
+  - [x] Chapitre 1 — Le modèle OSI
+  - [ ] Chapitre 2 — TCP et UDP
+  - [ ] Chapitre 3 — Les protocoles essentiels (DNS, ARP, DHCP, HTTP/HTTPS)
+  - [ ] Chapitre 4 — Adressage IP et sous-réseaux
+  - [ ] Chapitre 5 — Firewall, IDS, IPS et DMZ
 - [ ] Module 2 — Linux & administration système
 - [ ] Module 3 — Analyse de logs
 - [ ] Module 4 — SIEM avec Splunk/Elastic

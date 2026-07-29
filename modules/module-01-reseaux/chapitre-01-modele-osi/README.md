@@ -1,6 +1,6 @@
 # Chapitre 1 — Le modèle OSI
 
-Module 1 — Les réseaux et protocoles | Formation Blue Team | GeniusClassrooms
+Module 1 — Les réseaux et protocoles | Formation SOC / Blue Team | GeniusClassrooms
 
 ## Résumé
 
@@ -18,19 +18,15 @@ Le modèle **OSI** (Open Systems Interconnection, ISO, 1984) découpe la communi
 
 **Réflexe SOC** : face à une alerte, se demander *à quelle couche* se situe l'anomalie (ex. flood de SYN → couche 4 ; requêtes DNS vers domaines aléatoires → couche 7 / DNS Tunneling ou C2 ; TLS 1.0 détecté → couche 6).
 
-## Exercice théorique — identifier la couche d'une attaque
+## Quiz — identifier la couche d'une attaque
 
 Associer 5 scénarios (flood HTTP, cache ARP corrompu, DNS tunneling, session bancaire détournée, TLS 1.0 en prod) à leur couche OSI.
 
-➡️ Réponses et notes personnelles : [`exercice-theorique.md`](exercice-theorique.md)
+➡️ Réponses et notes personnelles : [`quiz-identifier-la-couche.md`](quiz-identifier-la-couche.md)
 
-## Exercice pratique — observer l'OSI en temps réel avec Wireshark
+## Exercice pratique associé
 
-Capturer son propre trafic réseau (navigation web, 30 s), puis via **Statistics > Protocol Hierarchy**, relever les protocoles observés par couche (Ethernet/L2, IP/L3, TCP-UDP/L4, HTTP-DNS-TLS/L7) et évaluer leur normalité.
-
-Cette capture constitue la première brique du rapport d'analyse réseau final du module.
-
-➡️ Capture et notes : [`exercice-pratique/`](exercice-pratique/)
+➡️ [Exercice 1 — Première capture Wireshark](../exercices/exercice-1-premiere-capture-wireshark.md) : observer l'OSI en temps réel via **Statistics > Protocol Hierarchy**. Cette capture constitue la première brique du rapport d'analyse réseau final du module.
 
 ## Ressources
 
